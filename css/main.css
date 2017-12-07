@@ -1,0 +1,33 @@
+body {
+font-family: 'Bungee Shade', cursive;
+
+}
+
+table {
+	margin: 50px auto;
+}
+
+#gameName {
+	font-size: 70px;
+	text-align:  center;
+	margin: 30px 0 0 0;
+}
+
+.square {
+	font-size: 50px;
+	text-align: center;
+	color: white;
+}
+
+.greyBox {
+	height: 150px;
+	width: 150px;
+	background: grey;
+}
+
+.blackBox {
+	height: 150px;
+	width: 150px;
+	background: black;
+
+}
