@@ -4,7 +4,7 @@ font-family: 'Bungee Shade', cursive;
 }
 
 table {
-	margin: 50px auto;
+	margin: 20px auto;
 }
 
 #gameName {
@@ -29,5 +29,21 @@ table {
 	height: 150px;
 	width: 150px;
 	background: black;
+
+}
+
+#resetButton {
+	text-align: center;
+}
+
+#button {
+	height: 80px;
+	width: 300px;
+	border: 3px double black;
+	border-radius: 5px;
+	margin: 0px 0 0 0;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 30px;
+	font-weight: bold;
 
 }

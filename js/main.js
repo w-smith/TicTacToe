@@ -8,18 +8,24 @@ var turn=0;
    
     // console.log(turn);
 
+
+
       $(".square").on("click", function(){
       	// console.log(this);
+        if ($(this).html() === '')
             if (turn % 2 === 0){
-              $(this).text('X'); 
+              $(this).text('@'); 
             } else {
-              $(this).text('O');
+              $(this).text('#');
 
             }
           turn++;
           
       });
 
+    $('#button').click(function() {
+    location.reload();
+    });
 
 // // Top Left
 // $("#tl").click(function() {
